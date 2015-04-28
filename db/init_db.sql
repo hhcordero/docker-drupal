@@ -1,0 +1,3 @@
+CREATE TABLE `test` (
+    `title` VARCHAR(20)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
