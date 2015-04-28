@@ -2,7 +2,7 @@
 docker run \
             --name docker_drupal \
             --volume ~/app:/app \
-            --link docker_mysql_drupal:mysql \
+            --link mysql:mysql \
             --publish 80:80 \
             --detach \
         hhcordero/docker-drupal

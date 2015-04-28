@@ -9,7 +9,7 @@ Basic run parameter includes link with other container, assume mysql as the name
     docker run \
                 --name docker_drupal \
                 --volume ~/app:/app \
-                --link docker_mysql_drupal:mysql \
+                --link mysql:mysql \
                 --publish 80:80 \
                 --detach \
             hhcordero/docker-drupal
